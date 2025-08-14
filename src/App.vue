@@ -54,7 +54,7 @@ const toggleFav = (album) => {
     } else {
         // 未收藏 → 新增
         favorites.value.push(album)
-        // 可選：第一次加入時自動打開側欄
+        // 第一次加入時自動打開側欄
         if (!asideToggle.value) asideToggle.value = true
     }
 }

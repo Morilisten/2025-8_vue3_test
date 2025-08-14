@@ -15,7 +15,7 @@ const emit = defineEmits(['remove'])
 
 const hasData = computed(() => props.list.length > 0)
 const removeFav = (item) => {
-    emit('remove', item.id) // 父層的 removeFav(id) 需要 id
+    emit('remove', item.id) 
 }
 </script>
 
